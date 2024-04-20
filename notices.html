@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="notices.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <input type="checkbox" id="menu-btn" />
+    <label for="menu-btn" id="menu-btn-label">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <div class="sidebar" id="sidebar">
+      <br /><br /><br /><br /><br /><br />
+      <div class="links">
+        <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+      </div>
+      <div class="links">
+        <a href="students.html"><i class="fa-solid fa-child"></i>Student</a>
+      </div>
+      <div class="links">
+        <a href="teachers.html"><i class="fa-solid fa-user-pen"></i>Teacher</a>
+      </div>
+      <div class="links">
+        <a href="classes.html"
+          ><i class="fa-solid fa-chalkboard-user"></i>Classes</a
+        >
+      </div>
+      <div class="links">
+        <a href="notices.html"
+          ><i class="fa-solid fa-paper-plane"></i>Notices</a
+        >
+      </div>
+      <div class="links">
+        <a href="profiles.html"><i class="fa-solid fa-id-card"></i>Profile</a>
+      </div>
+      <div class="links">
+        <a href="index.html"
+          ><i class="fa-solid fa-right-from-bracket"></i>Logout</a
+        >
+      </div>
+    </div>
+    <div class="content">
+      <h1 align="center">Notices</h1>
+      <div class="accordion">
+        <div>
+          <input type="checkbox" id="section1" class="accordion-checkbox" />
+          <label for="section1" class="accordion-title"
+            >How do I reset my password?</label
+          >
+          <div class="accordion-content">
+            <p>
+              You can click on the Profile Page and there you can find what
+              you're looking for .
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <input type="checkbox" id="section2" class="accordion-checkbox" />
+          <label for="section2" class="accordion-title"
+            >What should I do if I encounter technical issues with the
+            dashboard?</label
+          >
+          <div class="accordion-content">
+            <p>You can ring the school line for that.</p>
+          </div>
+        </div>
+        <div>
+          <input type="checkbox" id="section3" class="accordion-checkbox" />
+          <label for="section3" class="accordion-title"
+            >How often is the dashboard updated with new information?</label
+          >
+          <div class="accordion-content">
+            <p>Everytime the IT team gets new data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
